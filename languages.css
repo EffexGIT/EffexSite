@@ -1,0 +1,92 @@
+html{
+    background-color: black;
+    font-family: calibri;
+    text-align: center;
+}
+
+nav{
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 50px;
+}
+
+body{
+    background-color: white;
+}
+
+h1{
+    color: white
+}
+
+p{
+    color: black;
+    font-family: calibri;
+}
+
+img{
+    max-height: 150px;
+    padding-top: 20px;
+}
+
+figure{
+    border: solid black 3px;
+    border-radius: 20px;;
+}
+
+
+figcaption{
+    font-size: 25pt;
+    margin-top: 10px;
+    background-color: lightblue;
+}
+
+blockquote{
+    font-size: 14pt;
+}
+
+.header{
+    background-color: black;
+}
+
+.title{
+    font-size: 35pt;
+    text-align: center;
+}
+
+.navButtons{
+    text-decoration: none;
+    background-color: ghostwhite;
+    color: black;
+    flex-basis: 33%;
+    padding: 0.5%;
+    font-size: 20pt;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.backButton{
+    text-decoration: none;
+    background-color: ghostwhite;
+    color: black;
+    flex-basis: auto;
+    padding: 0.5%;
+    font-size: 20pt;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.logo{
+    margin: auto;
+    display: block;
+    position:relative;
+    top: 20px;
+    max-width: 80px;
+}
+
+.container{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
+

@@ -1,0 +1,117 @@
+html{
+    background-color: black;
+    font-family: calibri;
+    text-align: center;
+}
+
+nav{
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 50px;
+}
+
+body{
+    background-color: white;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: black;
+    font-family: calibri;
+}
+
+.header{
+    background-color: black;
+}
+
+.title{
+    font-size: 35pt;
+    text-align: center;
+}
+
+.navButtons{
+    text-decoration: none;
+    background-color: ghostwhite;
+    color: black;
+    flex-basis: 33%;
+    padding: 0.5%;
+    font-size: 20pt;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.backButton{
+    text-decoration: none;
+    background-color: ghostwhite;
+    color: black;
+    flex-basis: auto;
+    padding: 0.5%;
+    font-size: 20pt;
+    text-align: center;
+    border: solid 1px black;
+}
+
+.logo{
+    margin: auto;
+    display: block;
+    position:relative;
+    top: 20px;
+    max-width: 80px;
+}
+
+.container{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "popOS popOSText popOSText popOSText"
+    "fedoraText fedoraText fedoraText fedora"
+    "vsCode vsCodeText vsCodeText vsCodeText"; 
+}
+
+.popOS{
+    grid-area: popOS;
+    justify-self: end;
+    align-self: center;
+    max-height: 150px;
+}
+
+.popOSText{
+    grid-area: popOSText;
+    justify-self: start;
+    align-self: center;
+    max-width: 65%;
+}
+
+.fedora{
+    grid-area: fedora;
+    justify-self: start;
+    align-self: center;
+    max-height: 150px;
+}
+
+.fedoraText{
+    grid-area: fedoraText;
+    justify-self: end;
+    align-self: center;
+    max-width: 65%;
+}
+
+.vsCode{
+    grid-area: vsCode;
+    justify-self: end;
+    align-self: center;
+    max-height: 150px;
+}
+
+.vsCodeText{
+    grid-area: vsCodeText;
+    justify-self: start;
+    align-self: center;
+    max-width: 65%;
+}

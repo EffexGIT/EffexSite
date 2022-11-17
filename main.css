@@ -1,0 +1,101 @@
+html{
+    font-size: 16px;
+    font-family: calibri;
+    text-align: center;
+    background-color: black;
+}
+
+body{
+    background-color: white;
+    color: white;
+    font-size: 16pt;
+    font-family: calibri;
+}
+
+.header{
+    background-color: black;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 50px;
+}
+
+h3{
+    text-align: center;
+    font-size: 18pt;
+    color: black;
+    font-family: calibri;
+}
+
+p{
+    color: black;
+}
+
+.subTitle{
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+}
+
+.navButtons{
+    text-decoration: none;
+    background-color: ghostwhite;
+    color: black;
+    width: 33.3%;
+    padding: 0.5%;
+    font-size: 20pt;
+    border: solid 1px black;
+}
+
+.logo{
+   margin: auto;
+   display: block;
+   position:relative;
+   top: 20px;
+   max-width: 100px;
+}
+
+.title{
+    font-size: 45pt;
+    text-align: center;
+}
+
+.type{
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    margin-top: 30px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    max-height: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+.imgTiny{
+    max-height: 50px;
+    max-width: 50px;
+    margin: 0 10px 0 10px;
+}
+
+.selfie{
+    max-width: 250px;
+    max-height: 250px;
+    border: solid 2px black;
+    border-radius: 125px 125px 125px 125px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.copyright{
+    position: relative;
+    bottom: 20px;
+}
