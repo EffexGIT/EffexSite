@@ -16,12 +16,33 @@ body{
 }
 
 h1{
-    color: white;
+    color: white
 }
 
 p{
     color: black;
     font-family: calibri;
+}
+
+img{
+    max-height: 150px;
+    padding-top: 20px;
+}
+
+figure{
+    border: solid black 3px;
+    border-radius: 20px;;
+}
+
+
+figcaption{
+    font-size: 25pt;
+    margin-top: 10px;
+    background-color: lightblue;
+}
+
+blockquote{
+    font-size: 14pt;
 }
 
 .header{
