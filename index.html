@@ -1,47 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- This section is required for all HTML Docs-->
+<!-- * This section is required for all HTML Docs-->
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
         <meta name="author" content="Effex">
         <meta name="description" content="Live running log via website of my programming journey from the very start.">
 
-        <title class="title">
-           Full Stack Effex
-        </title>
+        <title class="title">Jordan Cartledge</title>
 
         <link rel="icon" href="StackEffexInvert.png" type="image/x-icon">
         <link rel="stylesheet" href="main.css">
     </head>
-    
-    <div class="header">
-        <a href="/index.html"><img class="logo" src="StackEffexInvert.png" alt="Full Stack Effex Logo"></a>
-        <h1 class="title">Effex</h1> 
-
-    <nav>
-        <a class="navButtons" href="/blog.html">Blogs</a>
-        <a class="navButtons" href="/software.html">Software</a>
-        <a class="navButtons" href="/languages.html">Languages</a>
-    </nav>
-    </div>
 
     <body>
-        
-        <img class="selfie" src="Selfie.jpg" alt="Picture of Me">
-   
-        <p class="type">My name is Jordan. I have wanted to have a future in technology for as long as I can remember. I started a CompSci Degree many years ago and dropped out. Now I have decided to finally finish what I started, whether I get my degree or am self-taught, and earn the title I originally wanted.</p><p>Software Engineer.</p>
-    
-    <hr>
 
-        <h3>Check out my socials!</h3>
+<!-- ? Markup for header bar inc. selfie and about info -->
+
+    <div class="headerBar">
+        <img class="selfie" src="Selfie.jpg" alt="Picture of Me">
+        <li class="headerText">
+            <ul><h1>Jordan Cartledge</h1></ul>
+            <ul>Studying full development</ul>
+            <ul>Upskilling for the future</ul>
+        </li>
+    </div>
+    
+<!-- ? This section is the global navigation bar for the site-->
+<!-- ! Replace with a Bootstrap hamburger menu-->
+
+        <div>
+            <nav>
+                <a href="blog.html" class="btn btn-info btn-lg" role="button">Experience</a>
+                <a href="software.html" class="btn btn-info btn-lg" role="button">Skills</a>
+                <a href="languages.html" class="btn btn-info btn-lg" role="button">Projects</a>
+            </nav>
+        </div>
+
+        <h3 class="goals">My current goals are to learn front end and then move on to Linux Software Development technologies such as Python, GO, C and PHP</h3>
+        <br>
+        <p>Here are some of the tools I use</p>
+
+        <div class="container">
+            <div class="popOS"><img class="popOS" src="PopOS.png"><img></div>
+     
+            <div class="popOSText"><h3>Pop!_OS</h3></div>
+         
+            <div class="fedora"><img class="fedora" src="fedoraLogo.png"><img></div>
+     
+            <div class="fedoraText"><h3>Fedora Workstation</h3></div>
+     
+            <div class="vsCode"><img class="vsCode" src="vsCode.png".png"><img></div>
+ 
+            <div class="vsCodeText"><h3>Visual Studio Code</h3></div>
+        </div>
+
+<!-- ! Probably move the below section to a contact me page along with emails etc. -->
+
+<br>
+
+<hr>
+        <h4 class="socials">Check out my socials!</h4>
 
         <div class="socials">
             <a href="https://twitter.com/Effecticals"><img class="imgTiny" src=twitterLogo.png></img></a>
             <a href="http://instagram.com/thesmoothdescent"><img class="imgTiny" src="instagramLogo.png"></img></a>
             <a href="https://linkedin.com/in/jordan-cartledge-9587b322b/"><img class="imgTiny" src="linkedInLogo.png"></img></a>
         </div>
-        
-        <p class="copyright">&copy;Jordan Cartledge</p>
+
+        <h6 class="copyright">&copy;Jordan Cartledge</h6>
 
     </body>
 

@@ -1,73 +1,60 @@
 html{
-    font-size: 16px;
     font-family: calibri;
-    text-align: center;
-    background-color: black;
 }
 
 body{
-    background-color: white;
-    color: white;
-    font-size: 16pt;
-    font-family: calibri;
-}
-
-.header{
-    background-color: black;
+    margin:0;
+    padding:0;
 }
 
 nav{
-    background-color: white;
     display: flex;
     justify-content: space-evenly;
-    min-height: 50px;
+}
+
+table{
+    margin-left: 5%;
+}
+
+h1{
+    font-size: 40pt;
 }
 
 h3{
+    padding-top: 20px;
+}
+
+h6{
     text-align: center;
-    font-size: 18pt;
-    color: black;
-    font-family: calibri;
+    margin-top: 20px;
 }
 
 p{
-    color: black;
+    font-size: 16pt;
+    margin-left: 4%;
 }
 
-.subTitle{
-    text-align: center;
-    position: relative;
-    bottom: 15px;
-}
-
-.navButtons{
-    text-decoration: none;
-    background-color: ghostwhite;
-    color: black;
-    width: 33.3%;
-    padding: 0.5%;
+li{
     font-size: 20pt;
-    border: solid 1px black;
+    list-style: none ;
 }
 
-.logo{
-   margin: auto;
-   display: block;
-   position:relative;
-   top: 20px;
-   max-width: 100px;
+
+.headerBar{
+    background-color: rgb(159, 221, 245);
+    margin-bottom: 0.5%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.title{
-    font-size: 45pt;
-    text-align: center;
+.btn-info{
+    width: 33%
 }
 
-.type{
-    margin: auto;
-    text-align: center;
-    width: 75%;
-    margin-top: 30px;
+.goals{
+    margin-top: 20px;
+    margin-left: 4%;
 }
 
 .socials{
@@ -85,17 +72,68 @@ p{
 }
 
 .selfie{
-    max-width: 250px;
-    max-height: 250px;
-    border: solid 2px black;
-    border-radius: 125px 125px 125px 125px;
-    display: block;
-    margin: auto;
+    max-width: 300px;
+    border-radius: 50%;
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-left: 100px;
 }
 
 .copyright{
     position: relative;
     bottom: 20px;
+}
+
+.container{
+    display: grid;
+    max-width: 87%;
+    margin: 0% 10% 0% 7%;
+    column-gap: 50px;
+    row-gap: 30px;
+    grid-template-columns: 1fr 1fr 5fr;
+    grid-template-areas:
+    "popOS popOSText popOSText"
+    "fedora fedoraText fedoraText"
+    "vsCode vsCodeText vsCodeText"; 
+}
+
+.popOS{
+    grid-area: popOS;
+    justify-self:left;
+    max-height: 150px;
+}
+
+.popOSText{
+    grid-area: popOSText;
+    justify-self: start;
+    align-self: center;
+    max-width: 65%;
+}
+
+.fedora{
+    grid-area: fedora;
+    justify-self: start;
+    align-self: center;
+    max-height: 150px;
+}
+
+.fedoraText{
+    grid-area: fedoraText;
+    justify-self: start;
+    align-self: center;
+    max-width: 65%;
+}
+
+.vsCode{
+    grid-area: vsCode;
+    justify-self: start;
+    align-self: center;
+    max-height: 150px;
+}
+
+.vsCodeText{
+    grid-area: vsCodeText;
+    justify-self: start;
+    align-self: center;
+    max-width: 65%;
 }
