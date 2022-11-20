@@ -46,6 +46,20 @@ li{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    justify-content: left;
+    text-align: center;
+}
+
+.headerText{
+    margin-left: 50px;
+}
+
+.selfie{
+    max-width: 250px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 150px;
 }
 
 .btn-info{
@@ -63,20 +77,13 @@ li{
     max-height: 50px;
     position: relative;
     bottom: 10px;
+    justify-content: center ;
 }
 
 .imgTiny{
     max-height: 50px;
     max-width: 50px;
     margin: 0 10px 0 10px;
-}
-
-.selfie{
-    max-width: 300px;
-    border-radius: 50%;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 100px;
 }
 
 .copyright{
@@ -90,7 +97,7 @@ li{
     margin: 0% 10% 0% 7%;
     column-gap: 50px;
     row-gap: 30px;
-    grid-template-columns: 1fr 1fr 5fr;
+    grid-template-columns: 1fr 1fr 6fr;
     grid-template-areas:
     "popOS popOSText popOSText"
     "fedora fedoraText fedoraText"
